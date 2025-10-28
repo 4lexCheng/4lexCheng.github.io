@@ -120,15 +120,39 @@
 <li>创建并打开文件夹</li>
 <li>打开终端输入：</li>
 </ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">不行的话前面加npx</span><br><span class="line">-- 初始化</span><br><span class="line">hexo init</span><br><span class="line"> </span><br><span class="line">-- 安装</span><br><span class="line">hexo install</span><br><span class="line"></span><br><span class="line">--生成</span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">-- 本地部署</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">不行的话前面加npx</span><br><span class="line">-- 初始化</span><br><span class="line">hexo init</span><br><span class="line"></span><br><span class="line"><span class="comment"># 编写文章</span></span><br><span class="line">hexo new <span class="string">&quot;我的文章&quot;</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">hexo install</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地部署（预览）</span></span><br><span class="line">hexo s</span><br><span class="line">(ctrl+c停止本地服务器)</span><br></pre></td></tr></table></figure>
 
 
 
+<ol start="3">
+<li><p>上线博客</p>
+<ol>
+<li>编辑_config.yml文件</li>
+</ol>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 拉到底</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/4lexCheng/4lexCheng.github.io.git</span>  <span class="comment">#(项目地址)</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>上传到github</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 清除</span></span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>此时遇到坑</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">D:\hexo\blogfile&gt; npx hexo d</span><br><span class="line">INFO  Validating config</span><br><span class="line">ERROR Deployer not found: git <span class="comment"># 表示缺少 Hexo 的 Git 部署插件</span></span><br></pre></td></tr></table></figure>
+
+<p>解决方案</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装部署插件</span></span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>成功 <code>hexo d</code>以后，要在弹出的github认证窗口登录~</li>
+<li>输入 github仓库名 链接访问</li>
+</ol>
+</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/09/29/%E8%B8%A9%E5%9D%91/" data-id="cmhapo8er0000gov98pvc2p4u" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/09/29/%E8%B8%A9%E5%9D%91/" data-id="cmhaqh2yc0000zcv9hxkx1azy" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -179,7 +203,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/09/29/hello-world/" data-id="cmhapo8f50001gov9330aft1y" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/09/29/hello-world/" data-id="cmhaqh2ym0001zcv91s22hj2p" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
