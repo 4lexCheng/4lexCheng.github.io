@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://4lexcheng.github.io/bangumi/index.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://4lexcheng.github.io/posts/a99da82b.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/posts/c0d13edc.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/posts/4a17b156.html</loc>
+    
+    <lastmod>2026-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/posts/b7cf68d8.html</loc>
     
     <lastmod>2026-02-20</lastmod>
     
@@ -14,33 +50,6 @@
     <loc>https://4lexcheng.github.io/posts/49b95b18.html</loc>
     
     <lastmod>2026-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://4lexcheng.github.io/posts/c0d13edc.html</loc>
-    
-    <lastmod>2025-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://4lexcheng.github.io/posts/b7cf68d8.html</loc>
-    
-    <lastmod>2025-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://4lexcheng.github.io/posts/4a17b156.html</loc>
-    
-    <lastmod>2025-10-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -71,6 +80,55 @@
   
   <url>
     <loc>https://4lexcheng.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/GitHub-Pages/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/%E8%B8%A9%E5%9D%91/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/SEO/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/Live2D/</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://4lexcheng.github.io/tags/%E9%A1%B5%E9%9D%A2%E5%A2%9E%E5%BC%BA/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
